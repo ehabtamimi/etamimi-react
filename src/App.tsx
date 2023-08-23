@@ -83,7 +83,7 @@ const App = () => {
     <div>
       <header>
         <img
-          src={`${window.location.href}\nutrition_header.png`}
+          src={`${window.location.href}\/nutrition_header.png`}
           className="img-fluid"
         />
       </header>
