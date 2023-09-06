@@ -1,0 +1,18 @@
+export type RecipesOption = {
+    query?: string,
+    cuisine?: string,
+    excludeCuisine?: string,
+    diet?: string,
+    intolerances?: string,
+    type?: string,
+    sort?: string,
+    minCarbs?: string,
+    maxCarbs?: string,
+    minProtein?: string,
+    maxProtein?: string,
+    minCalories?: string,
+    maxCalories?: string,
+    minFat?: string,
+    maxFat?: string,
+    fillIngredients?: string,
+}
