@@ -34,7 +34,7 @@ const RecipesSection = ({ results }: any) => {
                       return (
                         <li className="list-group-item" key={key}>
                           <span>{ingredientsObj.original}</span>
-                          <span className=".ml-30">
+                          <span className="mx-5">
                             <img src={ingredientsObj.image} />
                           </span>
                         </li>
