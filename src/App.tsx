@@ -6,6 +6,7 @@ import { RecipesOption } from "./types";
 import useFetchRecipes from "./hooks/fetch-recipes";
 import DATA from "./data";
 import RecipesSection from "./components/RecipesSection";
+import HeaderSection from "./components/headerSection";
 
 const App = () => {
   const [recipesOption, setRecipesOption] = useState<RecipesOption>({});
@@ -20,14 +21,7 @@ const App = () => {
 
   return (
     <div>
-      <header>
-        <img
-          src={`${
-            location.protocol + "//" + location.host + location.pathname
-          }nutrition_header.png`}
-          className="img-fluid"
-        />
-      </header>
+      <HeaderSection image="nutrition_header.png" />
 
       <form
         className="d-grid gap-3 my-2 align-content-start"
