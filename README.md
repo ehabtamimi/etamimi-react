@@ -14,8 +14,8 @@ We use an appropriate API to create a user interface for displaying details abou
 
 ### Below is an example that shows how to use the app:
 
-Go to this page: https://ehabtamimi.github.io/etamimi-react/
-Select a query such as "Pasta" or "Burger."
-Add 800 as the maximum calories.
-Check the "Fill Ingredients" checkbox.
-Click submit.
+- Go to this page: https://ehabtamimi.github.io/etamimi-react/
+- Select a query such as "Pasta" or "Burger."
+- Add 800 as the maximum calories.
+- Check the "Fill Ingredients" checkbox.
+- Click submit.
