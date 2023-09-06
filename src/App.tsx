@@ -20,7 +20,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div className="container-fluid">
       <HeaderSection image="nutrition_header.png" />
 
       <form

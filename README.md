@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
+# App Description:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+It's a web application built using the React TypeScript framework on the client side, which utilizes the Spoonacular API (https://spoonacular.com/food-api/docs) to fetch data from the client side and display recipes in an appealing manner.
 
-Currently, two official plugins are available:
+There are two main features of this application:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Search for recipes:
 
-## Expanding the ESLint configuration
+On the homepage, we use an appropriate API to enable recipe searches. Search results should display the recipe image and provide some description about each recipe.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Display information about recipes:
 
-- Configure the top-level `parserOptions` property like this:
+We use an appropriate API to create a user interface for displaying details about a specific recipe when the user selects a search result. In the detailed view of the recipe, an image illustrating the recipe will be displayed.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Below is an example that shows how to use the app:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Go to this page: https://ehabtamimi.github.io/etamimi-react/
+Select a query such as "Pasta" or "Burger."
+Add 800 as the maximum calories.
+Check the "Fill Ingredients" checkbox.
+Click submit.
