@@ -6,7 +6,7 @@ import { RecipesOption } from "./types";
 import useFetchRecipes from "./hooks/fetch-recipes";
 import DATA from "./data";
 import RecipesSection from "./components/RecipesSection";
-import HeaderSection from "./components/headerSection";
+import HeaderSection from "./components/HeaderSection";
 
 const App = () => {
   const [recipesOption, setRecipesOption] = useState<RecipesOption>({});
@@ -20,7 +20,7 @@ const App = () => {
   };
 
   return (
-    <div className="container-fluid">
+    <div>
       <HeaderSection image="nutrition_header.png" />
 
       <form
